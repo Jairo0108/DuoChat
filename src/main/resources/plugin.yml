@@ -1,0 +1,17 @@
+name: DuoChat
+main: org.powernukkit.plugins
+version: "${0.0.1}"
+api: ["1.0.13"]
+load: POSTWORLD
+author: Jairo0108
+description: Este plugin regula y estiliza el chat con multiples opciones.
+depend:
+  - PowerNukkit
+
+commands:
+  DuoHelp:
+    description: Ayuda Sobre DUOCHAT / Help About DUOCHAT
+    usage: "/duohelp"
+    permission: duochat.cmd.use
+
+
